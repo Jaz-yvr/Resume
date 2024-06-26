@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+      .section {
+        margin-bottom: 30px;
+      }
+      .section h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+      }
+      .project,
+      .experience {
+        margin-bottom: 20px;
+      }
+      .project-title,
+      .job-title {
+        font-weight: bold;
+      }
+      .job-location,
+      .project-detail,
+      .job-detail {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Resume</h1>
+      </header>
+      <div class="section" id="education">
+        <h2>Education</h2>
+        <p>
+          <strong
+            >Bachelor of Science (Computing Science) (Final semester)</strong
+          >
+        </p>
+        <p>University of the Fraser Valley, Abbotsford</p>
+        <ul>
+          <li>GPA: 3.21. Dean's list</li>
+          <li>
+            Relevant Courses: ML, AI, Robotics, OS, DSA, Design and Analysis of
+            Algorithms, Databases and DBMS, Data Communications
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="skills">
+        <h2>Skills</h2>
+        <p>
+          <strong>Languages:</strong> Python, Java, SQL, R, C++, C#, Assembly
+          and Machine Code
+        </p>
+        <p>
+          <strong>Tools:</strong> Git, Google Firebase, Google Maps API, Google
+          Sites, Unity, Jupyter Notebook, Eclipse, Android Studio, MS Excel
+        </p>
+        <p>
+          <strong>Frameworks:</strong> Numpy, Pandas, Tensorflow, Keras,
+          SciKit-Learn, Matplotlib, Seaborn
+        </p>
+      </div>
+      <div class="section" id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+          <p class="job-title">
+            Machine Learning Intern (October 2023 – December 2023)
+          </p>
+          <p class="job-location">
+            RBC - Borealis AI - Let’s Solve it Mentorship, Vancouver, Canada
+          </p>
+          <ul class="job-detail">
+            <li>
+              Organized and led development of models to predict wildfires in
+              Canada utilizing ML models - XGBoost, Random Forest, Multilayer
+              Perceptron. Achieved 85% accuracy through hyper-parameter tuning.
+            </li>
+            <li>
+              Conducted data preprocessing, data visualization & model
+              evaluation using Pandas, Numpy, Scikit-Learn, GeoPandas, Folium,
+              Matplotlib & Seaborn.
+            </li>
+          </ul>
+        </div>
+        <div class="experience">
+          <p class="job-title">Technical Support (August 2021 – April 2022)</p>
+          <p class="job-location">Concentrix, Chilliwack, Canada</p>
+          <ul class="job-detail">
+            <li>Assisted clients with technical products or services.</li>
+            <li>
+              Identified, investigated, researched, and provided resolution to
+              user questions and problems.
+            </li>
+            <li>
+              Troubleshoot basic and routine customer issues, including
+              hardware, software or other designated client products.
+            </li>
+            <li>
+              Followed appropriate escalation path to resolve technical issues,
+              including making follow-up outbound calls to customers or other
+              parties as needed.
+            </li>
+          </ul>
+        </div>
+        <div class="experience">
+          <p class="job-title">
+            Quality Control and Assurance (April 2022 – December 2022)
+          </p>
+          <p class="job-location">Inchol Solutions, Coquitlam, Canada</p>
+          <ul class="job-detail">
+            <li>
+              Conducted front and back-end testing for data quality assurance,
+              including manual data validation.
+            </li>
+            <li>
+              Managed defect tracking and collaborated on technical
+              documentation, including manual defect identification.
+            </li>
+            <li>
+              Collaborated with developers and hardware team to ensure new
+              feature functionality, including manual validation.
+            </li>
+            <li>
+              Demonstrated detail-oriented approach within compressed timelines,
+              including manual testing efforts.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <p class="project-title">
+            Crime Rates and Income Levels in British Columbia Analysis
+          </p>
+          <ul class="project-detail">
+            <li>
+              Assessed the correlation between median income and crime rates
+              across jurisdictions using R and Microsoft Excel.
+            </li>
+            <li>
+              Identified crime patterns and ranked cities as low, medium and
+              high risk using Linear Regression, Logistic Regression and K-means
+              clustering.
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <p class="project-title">
+            Fake News Headline Detection (presented at University of Kent
+            webinar)
+          </p>
+          <ul class="project-detail">
+            <li>
+              Developed NLP model to detect fake news headlines, achieving an
+              accuracy of 87% using Tensorflow & Keras.
+            </li>
+            <li>
+              Researched and prepared dataset for training & evaluation.
+              Prevented model overfitting by employing Early Stopping.
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <p class="project-title">Municipal Issues Reporting App</p>
+          <ul class="project-detail">
+            <li>
+              Spearheaded development of an Android App that allows users to
+              report and vote on local issues(e.g. potholes, graffiti).
+            </li>
+            <li>
+              Implemented user authentication, real-time data storage using
+              Google Firebase to manage user data and issue reporting securely
+              and efficiently. Integrated Google Maps API for location
+              based-issue tracking and directions.
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <p class="project-title">
+            Database Management System for Cab Company
+          </p>
+          <ul class="project-detail">
+            <li>
+              Conducted user requirements collection and analysis, designing an
+              Entity–Relationship (ER) model for Cab company.
+            </li>
+            <li>
+              Implemented the database tables, established referential
+              integrity, and ensured 3rd normal form (3NF) through normalization
+              techniques.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
